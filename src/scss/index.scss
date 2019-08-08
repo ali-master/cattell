@@ -1,0 +1,50 @@
+@import "~antd/dist/antd.css";
+@import "./text-colors";
+@import "./fonts";
+@import "./vars";
+@import "./mixins";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #38404d;
+	cursor: default;
+	font-size: 16px;
+	background-color: #f0f2f5;
+	font-family: var(--font-family);
+}
+.ant-typography.fa-font code {
+	font-family: var(--font-family) !important;
+}
+.ant-form-item-control {
+	direction: rtl;
+}
+input {
+	text-align: left;
+
+	&:-ms-input-placeholder {
+		text-align: right;
+	}
+	&::-webkit-input-placeholder {
+		text-align: right;
+	}
+	&::-moz-placeholder {
+		text-align: right;
+	}
+}
+
+.ant-alert {
+	direction: rtl;
+}
+.ant-layout-content {
+	min-height: unset;
+}
+.ant-layout-footer {
+	border: 1px solid #ddd;
+	border-right-width: 0;
+	border-left-width: 0;
+	box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.3);
+}

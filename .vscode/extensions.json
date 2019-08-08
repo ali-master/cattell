@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"editorconfig.editorconfig",
+		"shinnn.stylelint",
+		"ms-vscode.vscode-typescript-tslint-plugin",
+		"dsznajder.es7-react-js-snippets",
+		"wix.vscode-import-cost"
+	]
+}

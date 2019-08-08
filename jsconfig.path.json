@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"asssets/*": ["src/assets/*"],
+			"components/*": ["src/components/*"],
+			"hooks/*": ["src/hooks/*"],
+			"helpers/*": ["src/helpers/*"],
+			"screens/*": ["src/screens/*"],
+			"reducers/*": ["src/reducers/*"],
+			"scss/*": ["src/scss/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "build", "config", "scripts", "public", "coverage", "ignore", ".gitlab", ".vscode"]
+}

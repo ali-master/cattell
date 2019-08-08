@@ -1,0 +1,51 @@
+:root {
+	/* Silver family */
+	--silver: #f8f8f8;
+	--silver-light: #838ba1;
+	--silver-lighter: #fefefe;
+	--silver-dark: #c4c8d1;
+	/* Gray family */
+	--gray-dark: #aaa;
+	--gray: #5e5e5e;
+	--gray-light: #e2dfdf;
+	--gray-lighter: #ededed;
+	/* Blue family */
+	--blue: #3c74ff;
+	--blue-light: #00bcd4;
+	--blue-lighter: #80ecfa;
+	--blue-lighter-1: #7db9e8;
+	--blue-dark: #2459f1;
+	--blue-darker: #3e6eff;
+	--blue-input: #40a9ff;
+	/* Yellow family */
+	--yellow: #ffcb00;
+	--yellow-dark: #fbd219;
+	--yellow-light: #fff3bf;
+	/* Green family */
+	--green: #00ca88;
+	--green-light: #1cb539;
+	--green-success: #52c41a;
+	/* Red */
+	--red: #dd2323;
+	--error-color: #f5222d;
+	/* Orange */
+	--orange: #dd8a3a;
+	/* Brown */
+	--brown: #583508;
+	/* Purple */
+	--purple: #9f29b1;
+	--purple-light: #c35ed2;
+	/* Shadow */
+	--shadow: rgba(0, 0, 0, 0.45);
+	--f7-page-bg-color: #f6f7fc !important;
+	--glass: rgba(255, 255, 255, 0.4);
+
+	--white: #fff;
+	--font-family: "IRANSans", "IBMPlex", monospace;
+	--font-family-english: "IBMPlex", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
+		Cantarell, "Helvetica Neue", sans-serif;
+	/* border-radius */
+	--border-radius-small: 5px;
+	--border-radius-large: 10px;
+	--gradient-bg: linear-gradient(to right, var(--blue-light) 0%, var(--blue-lighter-1) 100%);
+}

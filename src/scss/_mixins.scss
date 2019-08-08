@@ -1,0 +1,74 @@
+@mixin languageDisplay($lang: "en") {
+	html[lang="#{$lang}"] & {
+		@content;
+	}
+}
+/*
+* making the item flexbox and vertically center it
+* @param {string} display - display of the item, default value is inline-flex
+*/
+@mixin flexCenter($display: "inline-flex") {
+	display: $display;
+	align-items: center;
+
+	@content;
+}
+
+/* changes the background and border of button */
+@mixin buttonColor($bg, $borderColor, $borderWidth: "1px") {
+	background: $bg;
+	border: $borderWidth solid $borderColor;
+	@content;
+}
+
+@mixin arrow($type: null, $size: "14px", $color: "#000") {
+	width: 0;
+	height: 0;
+	$size: unquote($size);
+	$color: unquote($color);
+
+	@if $type== "up" {
+		border-left: $size solid transparent;
+		border-right: $size solid transparent;
+		border-bottom: $size solid $color;
+	}
+	@elseif $type=="down" {
+		border-left: $size solid transparent;
+		border-right: $size solid transparent;
+		border-top: $size solid $color;
+	}
+	@elseif $type=="left" {
+		border-top: $size solid transparent;
+		border-bottom: $size solid transparent;
+		border-right: $size solid $color;
+	}
+	@elseif $type=="right" {
+		border-top: $size solid transparent;
+		border-bottom: $size solid transparent;
+		border-left: $size solid $color;
+	}
+	@elseif $type=="downLeft" {
+		border-top: $size solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: $size solid $color;
+		border-right: 0 solid $color;
+	}
+	@elseif $type=="downRight" {
+		border-top: $size solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: 0 solid $color;
+		border-right: $size solid $color;
+	}
+	@elseif $type=="upLeft" {
+		border-top: 0 solid transparent;
+		border-bottom: $size solid transparent;
+		border-left: $size solid $color;
+		border-right: 0 solid $color;
+	}
+	@elseif $type=="upRight" {
+		border-top: 0 solid transparent;
+		border-bottom: $size solid transparent;
+		border-left: 0 solid $color;
+		border-right: $size solid $color;
+	}
+}
