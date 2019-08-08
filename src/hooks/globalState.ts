@@ -10,8 +10,8 @@ export const MapDispatchContext = createContext((() => 0) as React.Dispatch<Stor
 // Hooks
 export const useDispatch = () => React.useContext(MapDispatchContext);
 
-export const useStore = (...props: string[]): Store.StateBackbone => {
-	const state: Store.StateBackbone = useContext(MapStateContext);
+export const useStore = (...props: string[]): Store.State => {
+	const state: Store.State = useContext(MapStateContext);
 
 	return R.not(R.isEmpty(props)) ? R.pick(props)(state) : state;
 };

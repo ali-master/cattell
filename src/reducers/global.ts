@@ -1,8 +1,8 @@
 import * as R from "ramda";
 
-export const initialState: Store.StateBackbone = {};
-export function reducer(state: Store.StateBackbone, action: Store.Action): Store.StateBackbone {
-	const updateState = R.merge<Store.StateBackbone>(state);
+export const initialState: Store.State = {};
+export function reducer(state: Store.State, action: Store.Action): Store.State {
+	const updateState = R.merge<Store.State>(state);
 
 	switch (action.type) {
 		case "TESTS":

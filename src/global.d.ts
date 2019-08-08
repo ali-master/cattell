@@ -1,10 +1,10 @@
 // Store definitions
 declare namespace Store {
-	interface StateBackbone {}
+	interface State {}
 
 	interface Action {
 		type: "TESTS";
 		payload?: any;
 	}
-	type Reducer = (state: StateBackbone, action: Action) => StateBackbone;
+	type Reducer = (state: State, action: Action) => State;
 }

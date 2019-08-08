@@ -6,6 +6,9 @@
 	},
 	"jsRules": {},
 	"rules": {
+		"no-namespace": false,
+		"no-empty-interface": false,
+		"interface-name": [true, "never-prefix"],
 		"no-consecutive-blank-lines": true,
 		"quotemark": [true, "double", "jsx-double"],
 		"jsx-boolean-value": false,
