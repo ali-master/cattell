@@ -1,0 +1,40 @@
+{
+	"en": [
+		{ "type": "A", "name": "People" },
+		{ "type": "B", "name": "Brain" },
+		{ "type": "C", "name": "Thrill" },
+		{ "type": "E", "name": "Domination" },
+		{ "type": "F", "name": "Vitality" },
+		{ "type": "G", "name": "conscience" },
+		{ "type": "H", "name": "Temerity" },
+		{ "type": "I", "name": "Allergy" },
+		{ "type": "L", "name": "Sceptic" },
+		{ "type": "M", "name": "Imagination" },
+		{ "type": "N", "name": "Reveling" },
+		{ "type": "O", "name": "Anxiety" },
+		{ "type": "Q1", "name": "Experience" },
+		{ "type": "Q2", "name": "Self-sufficiency" },
+		{ "type": "Q3", "name": "Perfectionism" },
+		{ "type": "Q4", "name": "Tension" },
+		{ "type": "V", "name": "Reliability" }
+	],
+	"fa": [
+		{ "type": "A", "name": "مردم آمیزی" },
+		{ "type": "B", "name": "هوش" },
+		{ "type": "C", "name": "پایداری هیجانی" },
+		{ "type": "E", "name": "سلطه گری" },
+		{ "type": "F", "name": "سرزندگی" },
+		{ "type": "G", "name": "وجدانی بودن" },
+		{ "type": "H", "name": "تهور" },
+		{ "type": "I", "name": "حساسیت هیجانی" },
+		{ "type": "L", "name": "بدل و شکاک" },
+		{ "type": "M", "name": "خیال پرداز" },
+		{ "type": "N", "name": "رک گو" },
+		{ "type": "O", "name": "اظطراب و دلهره" },
+		{ "type": "Q1", "name": "بازبودن تجربه" },
+		{ "type": "Q2", "name": "خودکفایی" },
+		{ "type": "Q3", "name": "کمال گرایی" },
+		{ "type": "Q4", "name": "تنش" },
+		{ "type": "V", "name": "اعتبار" }
+	]
+}
